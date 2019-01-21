@@ -18,6 +18,10 @@
      console.log(hero.show());
 
      class DragonFantasyMp extends DragonFantasy {
+         constructor(mp){    // 子クラスのコンストラクタが親クラスのコンストラクタを上書き
+            super();
+            this.mp = mp;
+        }
 
      }
  }
