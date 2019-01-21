@@ -18,6 +18,9 @@
      console.log(hero.show());
 
      class DragonFantasyMp extends DragonFantasy {
-
+         constructor(mp){    // mpのみを初期化する場合
+            super('Tom', '勇者', 100);
+            this.mp = mp;
+        }
      }
  }
