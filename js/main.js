@@ -29,4 +29,5 @@
      }
 
      const heromp = new DragonFantasyMp('Tom', '勇者', 100, 0);
+     console.log(heromp.showMp());
  }
