@@ -30,5 +30,5 @@
      }
 
      const heromp = new DragonFantasyMp('Tom', '勇者', 100, 0);
-     
+     console.log(heromp.showMp());   // undefinedの最初のMPはTomです。子クラスが上書きしているため
  }
