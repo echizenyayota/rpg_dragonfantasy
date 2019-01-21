@@ -22,5 +22,9 @@
             super('Tom', '勇者', 100);
             this.mp = mp;
         }
+
+        showMp() {
+            return `${this.job}の最初のMPは${this.mp}です。`;
+        }
      }
  }
