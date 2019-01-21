@@ -22,5 +22,9 @@
             super(name, job, hp);
             this.mp = mp;
         }
+
+        showMp() {
+            return `${this.job}の最初のMPは${this.mp}です。`;
+        }
      }
  }
