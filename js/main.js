@@ -21,7 +21,13 @@
          constructor(mp){    // 子クラスのコンストラクタが親クラスのコンストラクタを上書き
             super();
             this.mp = mp;
-        }
+         }
+
+         showMp() {
+            return `${this.job}の最初のMPは${this.mp}です。`;   // 子クラスが上書きしているため。this.jobが定義されていない。MPは初期化されずthis.mpがthis.nameに上書きしているだけ
+         }
+
+
 
      }
  }
